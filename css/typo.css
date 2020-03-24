@@ -1,0 +1,181 @@
+/*
+*==========================================* 
+*   CSS Typo - v1.1                        *
+*   (c)June 10.2019, built by @htmlstrap   *
+*==========================================*/
+@import url(root/custom-props.css);
+
+/*
+    Font Family 
+---------------------------*/
+.sans-serif {
+    font-family: var(--sans-serif);
+}
+
+.serif {
+    font-family: var(--serif);
+}
+
+.monospace {
+    font-family: var(--monospace);
+}
+
+/*
+    Text alignment
+---------------------------*/
+
+.txt-left {
+    text-align: left;
+}
+
+.txt-right {
+    text-align: right;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.txt-all {
+    text-align: justify-all;
+}
+
+.txt-match {
+    text-align: match-parent;
+}
+
+.txt-start {
+    text-align: start;
+}
+
+.txt-end {
+    text-align: end;
+}
+
+/*
+    Display props
+----------------------------*/
+.d-block {
+    display: var(--blk);
+}
+
+.inline-block {
+    display: var(-in-blk);
+}
+
+.d-inline {
+    display: var(--inlin);
+}
+
+/*
+    Floats
+----------------------------*/
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+/*
+    Margins & Paddings
+----------------------------*/
+.m-top {
+    margin-top: var(--gap);
+}
+
+.m-right {
+    margin-right: var(--gap);
+}
+
+.m-bottom {
+    margin-bottom: var(--gap);
+}
+
+.m-left {
+    margin-left: var(--gap);
+}
+
+.wide {
+    --wide: -20px;
+    margin: 0 var(--wide);
+}
+
+.center {
+    margin: 0 var(--yep);
+}
+
+.inner {
+    padding: var(--inner) 0;
+}
+
+.outer {
+    margin: 0 var(--outer);
+}
+
+.gap-left {
+    margin-left: var(--gap);
+}
+
+.gap-right {
+    margin-right: var(--gap);
+}
+
+.gap-both {
+    margin: 0 var(--gap);
+}
+
+.gap-all {
+    margin: var(--gap);
+}
+
+/*
+    List props 
+----------------------------*/
+.no-list {
+    list-style-type: none;
+}
+
+
+.no-txt-decoration {
+    text-decoration: none;
+}
+
+/*
+    More tags
+----------------------------*/
+pre {
+
+    font-size: 12px;
+    padding: 10px;
+    background: white;
+
+    color: var(--inverse);
+    border: solid 1px var(--inverse);
+
+}
+
+input {
+    padding: 0.25em;
+}
+
+figure {
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border: 1px solid #666;
+}
+
+td,
+th {
+    padding: 0.25rem 0.5rem;
+    border: 1px solid #666;
+}
