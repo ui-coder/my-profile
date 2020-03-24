@@ -1,0 +1,554 @@
+/*
+*==========================================* 
+*   CSS Colores - v1.2                     *
+*   (c)March 16.2020, built by @htmlstrap  *
+*==========================================*/
+@import url(root/custom-props.css);
+
+/*
+    Backgrounds
+------------------------------------*/
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-secondary {
+    background-color: var(--default);
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-info {
+    background-color: var(--info);
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.bg-danger {
+    background-color: var(--danger);
+}
+
+.bg-dark {
+    background-color: var(--inverse);
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-wheat {
+    background-color: var(--wheat);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+/*    
+    Shades of Black
+===============================*/
+.black1 {
+    background: var(--black-a10);
+}
+
+.black2 {
+    background: var(--black-a20);
+}
+
+.black3 {
+    background: var(--black-a30);
+}
+
+.black4 {
+    background: var(--black-a40);
+}
+
+.black5 {
+    background: var(--black-a50);
+}
+
+.black6 {
+    background: var(--black-a60);
+}
+
+.black7 {
+    background: var(--black-a70);
+}
+
+.black8 {
+    background: var(--black-a80);
+}
+
+.black9 {
+    background: var(--black-a90);
+}
+
+.black10 {
+    background: var(--black-a10);
+}
+
+/*
+    Shades of Gray
+===============================*/
+.dark-gray {
+    background: var(--gray-darker);
+}
+
+.dim-gray {
+    background: var(--gray-dark);
+}
+
+.gray {
+    background: var(--gray);
+}
+
+.lite-gray {
+    background: var(--gray-light);
+}
+
+.wan-gray {
+    background: var(--gray-lighter);
+}
+
+/*
+    Borders
+------------------------------------------*/
+[class*="bdr-"],
+[class*="no-bdr-"] {
+    min-width: 100px;
+    min-height: 100px;
+    margin: var(--outer);
+    padding: var(--inner);
+}
+
+.bdr-all {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.bdr-top {
+    border-top-style: solid;
+    border-width: 2px;
+}
+
+.bdr-right {
+    border-right-style: solid;
+    border-width: 2px;
+}
+
+.bdr-bottom {
+    border-bottom-style: solid;
+    border-width: 2px;
+}
+
+.bdr-left {
+    border-left-style: solid;
+    border-width: 2px;
+}
+
+.no-bdr-all {
+    border-style: none;
+    border: 0;
+}
+
+.no-bdr-top {
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+.no-bdr-right {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+
+.no-bdr-bottom {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+
+.no-bdr-left {
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.bdr-primary {
+    border-color: var(--bdr-primary);
+}
+
+.bdr-secondary {
+    border-color: var(--bdr-default);
+}
+
+.bdr-success {
+    border-color: var(--bdr-success);
+}
+
+.bdr-info {
+    border-color: var(--bdr-info);
+}
+
+.bdr-warning {
+    border-color: var(--bdr-warning);
+}
+
+.bdr-danger {
+    border-color: var(--bdr-danger);
+}
+
+.bdr-dark {
+    border-color: var(--dark);
+}
+
+.bdr-light {
+    border-color: var(--bdr-inverse);
+}
+
+.bdr-wheat {
+    border-color: var(--wheat);
+}
+
+/*
+    Stripes 
+===============================*/
+
+[class*="stripe-"] {
+    cursor: default;
+}
+
+.stripe-primary {
+    background: var(--lrt-primary);
+    border-top: var(--bdr-primary);
+    border-bottom: var(--bdr-primary);
+}
+
+.stripe-primary:hover {
+    background: var(--hvr-primary);
+    border-top: var(--bdr-primary);
+}
+
+.stripe-secondary {
+    background: var(--lrt-default);
+    border-top: var(--bdr-default);
+    border-bottom: var(--bdr-default);
+}
+
+.stripe-secondary:hover {
+    background: var(--hvr-default);
+}
+
+.stripe-success {
+    background: var(--lrt-success);
+    border-top: var(--bdr-success);
+    border-bottom: var(--bdr-success);
+}
+
+.stripe-success:hover {
+    background: var(--hvr-success);
+}
+
+.stripe-info {
+    background: var(--lrt-info);
+    border-top: var(--bdr-info);
+    border-bottom: var(--bdr-info);
+}
+
+.stripe-info:hover {
+    background: var(--hvr-info);
+}
+
+.stripe-warning {
+    background: var(--lrt-warning);
+    border-top: var(--bdr-warning);
+    border-bottom: var(--bdr-warning);
+}
+
+.stripe-warning:hover {
+    background: var(--hvr-warning);
+}
+
+.stripe-danger {
+    background: var(--lrt-danger);
+    border-top: var(--bdr-danger);
+    border-bottom: var(--bdr-danger);
+}
+
+.stripe-danger:hover {
+    background: var(--hvr-danger);
+}
+
+.stripe-default {
+    background: var(--lrt-default);
+    border-top: var(--bdr-default);
+    border-bottom: var(--bdr-default);
+}
+
+.stripe-default:hover {
+    background: var(--hvr-default);
+}
+
+/*
+    Text
+------------------------------------*/
+
+.txt-primary {
+    color: var(--txt-primary);
+}
+
+.txt-secondary {
+    color: var(--txt-default);
+}
+
+.txt-success {
+    color: var(--txt-success);
+}
+
+.txt-info {
+    color: var(--txt-info);
+}
+
+.txt-warning {
+    color: var(--txt-warning);
+}
+
+.txt-danger {
+    color: var(--txt-danger);
+}
+.txt-inverse {
+    color: var(--txt-inverse);
+}
+/*
+    More Colors
+-----------------------------------*/
+.lazer-lemon {
+    color: var(--lazer-lemon);
+}
+
+/* 
+    Alerts 
+-----------------------------------*/
+
+[class*="alert-"] {
+    display: var(--d-blk);
+    margin: 15px auto 20px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.alert .close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    line-height: 20px;
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+.alert-primary {
+    background: var(--txt-primary);
+    border-color: var(--bdr-primary);
+    color: var(--lrt-primary);
+}
+
+.alert-success {
+    background: var(--lrt-success);
+    border-color: var(--bdr-success);
+    color: var(--txt-success);
+}
+
+.alert-info {
+    background: var(--lrt-info);
+    border-color: var(--bdr-info);
+    color: var(--txt-info);
+}
+
+.alert-warning {
+    background: var(--lrt-warning);
+    border-color: var(--bdr-warning);
+    color: var(--txt-warning);
+}
+
+.alert-danger {
+    background: var(--lrt-danger);
+    border-color: var(--bdr-danger);
+    color: var(--txt-danger);
+}
+
+/* 
+    Callouts 
+-------------------------------------------*/
+
+[class*="callout-"] {
+    border: 1px solid;
+    border-radius: var(--callout);
+    margin: 15px auto;
+    padding: 0 20px;
+}
+
+.callout-primary {
+    border-color: var(--bdr-primary);
+    border-left: 15px var(--bdr-primary);
+    color: var(--txt-primary);
+}
+
+.callout-success {
+    border-color: var(--bdr-success);
+    border: 5px solid var(--bdr-success);
+    color: var(--txt-success);
+}
+
+.callout-info {
+    border-left: 15px var(--bdr-info);
+    color: var(--txt-info);
+}
+
+.callout-warning {
+    border-left: 15px var(--bdr-warning);
+    color: var(--txt-warning);
+}
+
+.callout-danger {
+    border-left: 15px var(--bdr-danger);
+    color: var(--txt-danger);
+}
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+/*
+    Table
+-------------------------------------------*/
+.table {
+    border: var(--bdr-default);
+    display: var(--d-tbl);
+    text-align: center;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.tcap {
+    display: var(--tcap);
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.thead {
+    display: var(--theadr-grp);
+    font-weight: 400 !important;
+    font-size: 18px;
+}
+
+.hcell {
+    display: var(--tcell);
+    padding: 0 10px;
+    text-align: center;
+}
+
+.tbody {
+    display: var(--trow-grp);
+}
+
+.trow {
+    display: var(--trow);
+    padding: 10px;
+    text-align: center;
+}
+
+.bcell {
+    display: var(--trow-grp);
+    text-align: center;
+}
+
+.tfoot {
+    display: var(--tfootr-grp);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.fcell {
+    display: var(--tcell);
+    padding: 10px;
+    text-align: center;
+}
+
+.nobdr {
+    border: none !important;
+}
+
+/* 
+    tRow Color 
+==========================================*/
+
+.trow-primary {
+    background: var(--primary);
+    color: var(--txt-invert);
+}
+
+.trow-secondary {
+    background: var(--default);
+}
+
+.trow-success {
+    background: var(--success);
+    color: var(--txt-invert);
+}
+
+.trow-info {
+    background: var(--info);
+    color: var(--txt-invert);
+}
+
+.trow-warning {
+    background: var(--warning);
+    color: var(--txt-invert);
+}
+
+.trow-danger {
+    background: var(--danger);
+    color: var(--txt-invert);
+}
